@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("5388281-book-glasses-wooden-desk-table-laptop-macbook-office-tech-technology-flat-lay-decor-workspace-creative-writing-season-desktop-pencil-computer-glass-free-pictures.jpg");
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    padding: 1em;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.option_list {
+    font-family: Optima-Regular;
+    color: black;
+    background: rgb(247, 245, 245);
+    border-radius: 3em;
+    padding: 2em;
+    position: relative;
+    top: 30px;
+    right: 250px;
+}
+
+.option_list:hover {
+    color: black;
+    background: rgb(240, 231, 231);
+}
+
+#logo {
+    width: 18%;
+    border-radius: 2.5em;
+    position: relative;
+    left: 200px;
+}
+
+.main_details {
+    text-align: center;
+    font-family: AndaleMono;
+    font-weight: bolder;
+
+}
+
+.container2 {
+    padding: 3em;
+    margin-bottom: 26%;
+}
+
+#con-container2 {
+    margin-bottom: 20%;
+}
+
+#list-container2 {
+    margin-bottom: 29%;
+}
+
+.conMain_details {
+    backdrop-filter: blur(8px);
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-right: 50%;
+}
+
+.listMain_details {
+    text-align: center;
+    font-family: AndaleMono;
+    font-weight: bolder;
+   
+}
+
+#design {
+    border-radius: 2.5em;
+    backdrop-filter: blur(8px);
+}
+
+#addButton:hover {
+    background: black;
+    color: white;
+}
+
+#deleteButton:hover {
+    background: black;
+    color: white;
+}
+
